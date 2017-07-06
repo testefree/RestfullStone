@@ -13,6 +13,7 @@ namespace RestfullStone
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // Rota MVC
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
